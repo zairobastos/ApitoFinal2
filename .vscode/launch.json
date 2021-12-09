@@ -1,0 +1,47 @@
+{
+    // Use o IntelliSense para saber mais sobre os atributos possíveis.
+    // Focalizar para exibir as descrições dos atributos existentes.
+    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ApitoFinal2_2cf81833",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch ApitoFinal",
+            "request": "launch",
+            "mainClass": "apitofinal.ApitoFinal",
+            "projectName": "ApitoFinal2_2cf81833",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tela2_Cadastro",
+            "request": "launch",
+            "mainClass": "tela2_Cadastro.Tela2_Cadastro",
+            "projectName": "ApitoFinal2_2cf81833",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        },
+        {
+            "type": "java",
+            "name": "Launch Tela3_Cadastro",
+            "request": "launch",
+            "mainClass": "tela3_Cadastro.Tela3_Cadastro",
+            "projectName": "ApitoFinal2_2cf81833",
+            "vmArgs": "--module-path \"C:/Program Files/Java/javafx-sdk-11.0.2/lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
