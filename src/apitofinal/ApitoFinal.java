@@ -17,6 +17,8 @@ import javafx.stage.Stage;
  */
 public class ApitoFinal extends Application {
     
+    private static Stage stage; 
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("FXMLDocument.fxml"));
@@ -25,7 +27,16 @@ public class ApitoFinal extends Application {
         
         stage.setScene(scene);
         stage.show();
+        setStage(stage);
     }
+
+    public static Stage getStage() {
+        return stage;
+    }
+
+    public static void setStage(Stage stage) {
+        ApitoFinal.stage = stage;
+    }   
 
     /**
      * @param args the command line arguments
