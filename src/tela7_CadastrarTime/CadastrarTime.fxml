@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1360.0" style="-fx-background-color: EBF2F5;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tela.pkg07.cadastrartime.CadastrarTimeController">
+   <children>
+      <Pane prefHeight="87.1" prefWidth="1360.0" style="-fx-background-color: fff;">
+         <children>
+            <Label layoutX="76.0" prefHeight="87.0" prefWidth="280.0" text="Apito Final" textFill="#4d6f80">
+               <font>
+                  <Font name="Nunito Bold" size="50.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="1204.17" layoutY="3.75" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Ellipse%208.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="1064.0" layoutY="28.0" prefHeight="32.0" prefWidth="140.0" text="User Name" textAlignment="CENTER" textFill="#4d6f80">
+               <font>
+                  <Font name="Nunito ExtraBold" size="18.0" />
+               </font>
+            </Label>
+         </children></Pane>
+      <Pane layoutY="87.1" prefHeight="1.0" prefWidth="1360.0" style="-fx-background-color: D3E2E5;" />
+      <Pane layoutX="378.0" layoutY="129.0" prefHeight="571.0" prefWidth="604.0" style="-fx-background-color: fff;">
+         <children>
+            <ImageView fitHeight="80.0" fitWidth="80.0" layoutX="60.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/Logotype.jpg" />
+               </image>
+            </ImageView>
+            <Label layoutX="161.0" layoutY="64.0" text="Cadastrar Time" textFill="#4d6f80">
+               <font>
+                  <Font name="Nunito Bold" size="36.0" />
+               </font>
+            </Label>
+            <Pane layoutX="60.0" layoutY="148.0" prefHeight="1.0" prefWidth="483.0" style="-fx-background-color: D3E2E5;" />
+            <Label layoutX="60.0" layoutY="175.0" text="Nome do Campeonato" textFill="#8fa7b2">
+               <font>
+                  <Font name="Nunito SemiBold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="60.0" layoutY="198.0" prefHeight="40.0" prefWidth="308.0" style="-fx-background-color: F5F8FA; -fx-border-color: #d3e2e5;">
+               <font>
+                  <Font name="Nunito Regular" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="411.0" layoutY="175.0" text="Abreviação" textFill="#8fa7b2">
+               <font>
+                  <Font name="Nunito SemiBold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="411.0" layoutY="198.0" prefHeight="40.0" prefWidth="132.0" style="-fx-background-color: F5F8FA; -fx-border-color: #d3e2e5;">
+               <font>
+                  <Font name="Nunito Regular" size="14.0" />
+               </font>
+            </TextField>
+            <Label layoutX="60.0" layoutY="242.0" text="Campo Obrigatório" textFill="#cd3232">
+               <font>
+                  <Font name="Nunito SemiBold" size="12.0" />
+               </font>
+            </Label>
+            <Label layoutX="411.0" layoutY="242.0" text="Campo Obrigatório" textFill="#cd3232">
+               <font>
+                  <Font name="Nunito SemiBold" size="12.0" />
+               </font>
+            </Label>
+            <Button fx:id="btn1" layoutX="60.0" layoutY="299.0" mnemonicParsing="false" onAction="#Button1Action" prefHeight="60.0" prefWidth="483.0" style="-fx-background-color: F5F8FA; -fx-border-color: #d3e2e5; -fx-border-width: 1px;" />
+            <Label layoutX="60.0" layoutY="269.0" text="Escudo" textFill="#8fa7b2">
+               <font>
+                  <Font name="Nunito SemiBold" size="16.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="277.0" layoutY="304.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/+.png" />
+               </image>
+            </ImageView>
+            <ListView fx:id="lista" layoutX="60.0" layoutY="369.0" prefHeight="80.0" prefWidth="483.0" />
+            <Button layoutX="60.0" layoutY="467.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="483.0" style="-fx-background-color: #3CDC8C;" text="Finalizar Cadastro" textFill="WHITE">
+               <font>
+                  <Font name="Nunito ExtraBold" size="24.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</Pane>
